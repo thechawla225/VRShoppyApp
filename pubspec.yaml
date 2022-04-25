@@ -1,0 +1,69 @@
+name: vrshoppy
+description: A new Flutter project.
+
+ublish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0-144.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.2.0
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^5.4.2
+  double_back_to_close_app: ^2.1.0
+  card_swiper: ^2.0.1
+  webview_flutter: ^3.0.0
+  model_viewer_plus: ^1.1.2
+  flutter_rating_stars: ^1.0.3+4
+  sqflite: ^2.0.2
+  path_provider: ^2.0.9
+  provider: ^6.0.2
+  syncfusion_flutter_charts: ^20.1.50
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/Proxima-Nova-Bold.otf
+        - asset: assets/fonts/Proxima-Nova-Regular.ttf
+          weight: 800
+
+  assets:
+    - assets/images/electronics.jpg
+    - assets/images/furniture.jpg
+    - assets/images/mobiles.jpg
+    - assets/images/banner2.png
+    - assets/images/banner3.png
+    - assets/robo.gltf
+    - assets/Persian.glb
+    - assets/images/Couch1.png
+    - assets/images/Chair1.png
+    - assets/images/samsungj7.png
+    - assets/images/bed1.png
+    - assets/images/bed2.png
+    - assets/images/speaker.png
+    - assets/3dmodels/wizardchair/scene.gltf
+    - assets/3dmodels/bed1.glb
+    - assets/3dmodels/bed2.glb
+    - assets/3dmodels/speaker.glb
+    - assets/3dmodels/smarttv.glb
+    - assets/3dmodels/iphone.glb
+    - assets/3dmodels/Persian.glb
+    - assets/images/phoneka.png
+    - assets/images/glowphonepic.png
+    - assets/images/homingpinpic.png
+    - assets/3dmodels/smartphone.glb
+    - assets/3dmodels/glowphone.glb
+    - assets/3dmodels/homongpin.glb

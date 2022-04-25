@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Wizard's Chair
+* source:	https://sketchfab.com/3d-models/the-wizards-chair-9aea3b516d3e4e169710049b32282670
+* author:	SilkevdSmissen (https://sketchfab.com/SilkevdSmissen)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Wizard's Chair" (https://sketchfab.com/3d-models/the-wizards-chair-9aea3b516d3e4e169710049b32282670) by SilkevdSmissen (https://sketchfab.com/SilkevdSmissen) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
