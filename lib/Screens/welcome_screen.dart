@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vrshoppy/Screens/home_screen.dart';
 import 'package:flutter/services.dart';
+import 'package:vrshoppy/Screens/signup_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   @override
@@ -37,30 +38,36 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       fontFamily: 'ProximaNova'),
                 ),
                 Container(height: size.height * 0.05),
-                Container(
-                    height: 50,
-                    width: size.width * 0.40,
-                    decoration: BoxDecoration(
-                        color: Colors.purple,
-                        border: Border.all(
-                          width: 2,
-                          color: Colors.white,
-                        ),
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(25))),
-                    child: const Center(
-                        child: Text("Sign Up",
-                            style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.white,
-                                fontFamily: 'ProximaNova')) //Text
-                        ) //Center
-                    ), //Container
+                GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignUpScreen("Sign Up")));
+                  },
+                  child: Container(
+                      height: 50,
+                      width: size.width * 0.40,
+                      decoration: BoxDecoration(
+                          color: Colors.purple,
+                          border: Border.all(
+                            width: 2,
+                            color: Colors.white,
+                          ),
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(25))),
+                      child: const Center(
+                          child: Text("Sign Up",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontFamily: 'ProximaNova')) //Text
+                          ) //Center
+                      ),
+                ), //Container
                 Container(height: size.height * 0.02),
                 GestureDetector(
                     onTap: () {
-                      Navigator.of(context).pushReplacement(MaterialPageRoute(
-                          builder: (context) => HomeScreen()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => SignUpScreen("Login")));
                     },
                     child: Container(
                         height: 50,
